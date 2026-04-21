@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -175,22 +175,22 @@
     <div id="overlay" class="fixed inset-0 bg-black/70 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
     <aside id="sidebarMenu" class="sidebar fixed top-0 left-0 h-full w-64 bg-[#0a0a0a] border-r border-gray-900 z-50 shadow-2xl flex flex-col">
         <div class="p-5 flex justify-between items-center border-b border-gray-800">
-            <h2 class="text-xl font-bold tracking-widest text-white">MENÚ</h2>
+            <h2 class="text-xl font-bold tracking-widest text-white">MENU</h2>
             <button onclick="toggleMenu()" class="text-gray-400 hover:text-white p-2 transition-colors">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
         </div>
         <nav class="flex flex-col p-4 gap-4 text-sm font-semibold tracking-wider text-gray-400 uppercase overflow-y-auto no-scrollbar pb-20">
-            <a href="suscripcion.html" class="text-white hover:bg-gray-900 p-3 rounded transition-colors">Suscripción</a>
-            <a href="index.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Inicio</a>
-            <a href="moda.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Moda</a>
-            <a href="belleza.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Belleza</a>
-            <a href="estilodevida.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Estilo de Vida</a>
-            <a href="compras.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Compras</a>
+            <a href="suscripcion.html" class="text-white hover:bg-gray-900 p-3 rounded transition-colors">Subscribe</a>
+            <a href="index.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Home</a>
+            <a href="moda.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Fashion</a>
+            <a href="belleza.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Beauty</a>
+            <a href="estilodevida.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Lifestyle</a>
+            <a href="compras.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Shopping</a>
             <a href="redevon.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">(Re)Devon</a>
             <a href="hollywood.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Hollywood</a>
             <a href="podcast.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Podcast</a>
-            <a href="espaciodevon.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Espacio Devon</a>
+            <a href="espaciodevon.html" class="hover:text-white hover:bg-gray-900 p-3 rounded transition-colors">Devon Space</a>
         </nav>
     </aside>
 
@@ -225,7 +225,7 @@
             
             <div class="flex items-center gap-4 z-20">
                 <a href="suscripcion.html" class="hidden md:block text-[11px] md:text-xs font-medium tracking-[0.25em] uppercase text-white hover:text-gray-400 transition-colors mr-1" style="font-family: 'Jost', sans-serif;">
-                    SUSCRIPCIÓN
+                    SUBSCRIBE
                 </a>
                 
                 <!-- Ícono de usuario -->
@@ -242,23 +242,23 @@
 
     <!-- Top Bar -->
     <div class="hidden md:flex w-full justify-center gap-8 lg:gap-12 text-[11px] lg:text-xs font-medium tracking-[0.2em] text-white uppercase py-4 bg-black border-b border-gray-900 overflow-x-auto whitespace-nowrap px-6" style="font-family: 'Jost', sans-serif;">
-        <a href="moda.html" class="cursor-pointer hover:text-gray-400 transition-colors">MODA</a>
-        <a href="belleza.html" class="cursor-pointer hover:text-gray-400 transition-colors">BELLEZA</a>
-        <a href="estilodevida.html" class="cursor-pointer hover:text-gray-400 transition-colors">ESTILO DE VIDA</a>
-        <a href="compras.html" class="cursor-pointer hover:text-gray-400 transition-colors">COMPRAS</a>
+        <a href="moda.html" class="cursor-pointer hover:text-gray-400 transition-colors">FASHION</a>
+        <a href="belleza.html" class="cursor-pointer hover:text-gray-400 transition-colors">BEAUTY</a>
+        <a href="estilodevida.html" class="cursor-pointer hover:text-gray-400 transition-colors">LIFESTYLE</a>
+        <a href="compras.html" class="cursor-pointer hover:text-gray-400 transition-colors">SHOPPING</a>
         <a href="redevon.html" class="cursor-pointer hover:text-gray-400 transition-colors">(RE)DEVON</a>
         <a href="hollywood.html" class="cursor-pointer hover:text-gray-400 transition-colors">HOLLYWOOD</a>
         <a href="podcast.html" class="cursor-pointer hover:text-gray-400 transition-colors">PODCAST</a>
-        <a href="espaciodevon.html" class="cursor-pointer hover:text-gray-400 transition-colors">ESPACIO DEVON</a>
+        <a href="espaciodevon.html" class="cursor-pointer hover:text-gray-400 transition-colors">DEVON SPACE</a>
     </div>
 
     <!-- Pestañas Superiores (Solo Móvil) -->
     <div class="flex md:hidden w-full text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
         <a href="loultimo.html" class="w-1/2 py-4 flex items-center justify-center bg-black text-white border-b-2 border-white">
-            LO ÚLTIMO
+            LATEST
         </a>
         <a href="tendencias.html" class="w-1/2 py-4 flex items-center justify-center bg-gray-900 border-l border-gray-800 hover:bg-gray-800 transition-colors cursor-pointer">
-            TENDENCIAS
+            TRENDS
         </a>
     </div>
 
@@ -271,7 +271,7 @@
         />
         <div class="max-w-7xl w-full flex flex-col items-center md:items-start text-center md:text-left z-10 px-6 md:px-12 py-8 md:py-10 relative">
             <h2 class="text-2xl md:text-4xl text-white mb-2" style="font-family: 'Georgia', 'Times New Roman', serif;">Van Cleef & Arpels</h2>
-            <p class="text-[10px] md:text-xs text-gray-200 mb-4" style="font-family: 'Georgia', 'Times New Roman', serif;">Haute Joaillerie, place Vendôme desde 1906</p>
+            <p class="text-[10px] md:text-xs text-gray-200 mb-4" style="font-family: 'Georgia', 'Times New Roman', serif;">Haute Joaillerie, place Vendôme since 1906</p>
             
             <div class="mb-4 text-white opacity-90 flex items-center justify-center md:justify-start">
                 <svg width="30" height="20" viewBox="0 0 36 24">
@@ -281,7 +281,7 @@
             </div>
             
             <a href="coleccionlucky.html" class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-white border-b border-white pb-0.5 hover:text-gray-300 transition-colors">
-                DESCUBRE LA COLECCIÓN LUCKY SPRING
+                DISCOVER THE LUCKY SPRING COLLECTION
             </a>
         </div>
     </section>
@@ -293,7 +293,7 @@
         <div class="w-full max-w-7xl mx-auto px-6 mt-8 md:mt-12 mb-4">
             <div class="border-t border-b border-gray-800 py-3 md:py-4">
                 <h2 class="text-lg md:text-xl font-medium tracking-widest text-white uppercase" style="font-family: 'Jost', sans-serif;">
-                    EN PORTADA
+                    ON THE COVER
                 </h2>
             </div>
         </div>
@@ -398,14 +398,14 @@
                 <div class="hero-text absolute top-0 left-0 w-full px-2 md:px-4 transition-opacity duration-500 ease-in-out opacity-100 z-10 pointer-events-auto flex flex-col items-start justify-start">
                     <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">(Re) Devon</p>
                     <h2 class="text-3xl md:text-5xl lg:text-[3.2rem] font-medium text-white leading-[1.15] mb-6 md:mb-8 max-w-5xl" style="font-family: 'Jost', sans-serif; letter-spacing: -0.02em;">
-                        Alonso Alvarez y Alonso, una foto unica de ambos juntos enlazando en el espacio de (Re) Devon
+                        Alonso Alvarez and Alonso, a unique photo of them together connecting in the (Re) Devon space
                     </h2>
                     <div class="text-[10px] md:text-[11px] font-medium tracking-[0.15em] uppercase text-white leading-loose">
-                        <p class="text-gray-300">POR Samil® & Devon®.</p>
-                        <p class="text-gray-300">Fotografia Por Samil®</p>
-                        <p class="text-gray-300">Editada por Devon®</p>
+                        <p class="text-gray-300">BY Samil® & Devon®.</p>
+                        <p class="text-gray-300">Photography By Samil®</p>
+                        <p class="text-gray-300">Edited by Devon®</p>
                         <div class="normal-case mt-2 text-[11px] md:text-[13px] text-gray-400 tracking-normal leading-none flex items-center gap-3" style="font-family: 'Jost', sans-serif;">
-                            <span>8 abril de 2026</span>
+                            <span>April 8, 2026</span>
                         </div>
                     </div>
                 </div>
@@ -413,37 +413,37 @@
                 <!-- Texto Slide 2 (Fer & Alonso - Anterior Slide 1) -->
                 <div class="hero-text absolute top-0 left-0 w-full px-2 md:px-4 transition-opacity duration-500 ease-in-out opacity-0 z-0 pointer-events-none flex flex-col items-start justify-start">
                     <h2 class="text-2xl md:text-3xl font-medium text-white mb-6" style="font-family: 'Jost', sans-serif;">
-                        Fer & Alonso, ¿podrás descubrirlo?
+                        Fer & Alonso, can you figure it out?
                     </h2>
                     <a href="https://www.instagram.com/alonso_ia_alvarez" class="link-underline text-xs font-bold tracking-widest uppercase text-white transition-colors relative z-30">
-                        IR A VERLOS JUNTOS
+                        GO SEE THEM TOGETHER
                     </a>
                 </div>
 
                 <!-- Texto Slide 3 (Alonso) -->
                 <div class="hero-text absolute top-0 left-0 w-full px-2 md:px-4 transition-opacity duration-500 ease-in-out opacity-0 z-0 pointer-events-none flex flex-col items-start justify-start">
-                    <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">MODA</p>
+                    <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">FASHION</p>
                     <h2 class="text-3xl md:text-5xl lg:text-[3.2rem] font-medium text-white leading-[1.15] mb-6 md:mb-8 max-w-5xl" style="font-family: 'Jost', sans-serif; letter-spacing: -0.02em;">
-                        Alonso Alvarez, el coach modelo mexicano regresa a la portada de Devon
+                        Alonso Alvarez, the Mexican model coach returns to the cover of Devon
                     </h2>
                     <div class="text-[10px] md:text-[11px] font-medium tracking-[0.15em] uppercase text-white leading-loose">
-                        <p class="text-gray-300">POR DERECK J.</p>
-                        <p class="text-gray-300">FOTOGRAFÍA POR DEVON®</p>
-                        <p class="normal-case mt-2 text-[11px] md:text-[13px] text-gray-400 tracking-normal leading-none" style="font-family: 'Jost', sans-serif;">1 de abril de 2026</p>
+                        <p class="text-gray-300">BY DERECK J.</p>
+                        <p class="text-gray-300">PHOTOGRAPHY BY DEVON®</p>
+                        <p class="normal-case mt-2 text-[11px] md:text-[13px] text-gray-400 tracking-normal leading-none" style="font-family: 'Jost', sans-serif;">April 1, 2026</p>
                     </div>
                 </div>
 
                 <!-- Texto Slide 4 (Espacio Devon) -->
                 <div class="hero-text absolute top-0 left-0 w-full px-2 md:px-4 transition-opacity duration-500 ease-in-out opacity-0 z-0 pointer-events-none flex flex-col items-start justify-start">
-                    <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">Espacio Devon</p>
+                    <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">Devon Space</p>
                     <h2 class="text-3xl md:text-5xl lg:text-[3.2rem] font-medium text-white leading-[1.15] mb-6 md:mb-8 max-w-5xl" style="font-family: 'Jost', sans-serif; letter-spacing: -0.02em;">
-                        Alonso Alvarez, el coach modelo mexicano & su date Fernanda hacen una aparición en Espacio Devon
+                        Alonso Alvarez, the Mexican model coach & his date Fernanda make an appearance in Devon Space
                     </h2>
                     <div class="text-[10px] md:text-[11px] font-medium tracking-[0.15em] uppercase text-white leading-loose">
-                        <p class="text-gray-300">POR Dereck J.</p>
-                        <p class="text-gray-300">Fotografia Por Devon®</p>
+                        <p class="text-gray-300">BY Dereck J.</p>
+                        <p class="text-gray-300">Photography By Devon®</p>
                         <div class="normal-case mt-2 text-[11px] md:text-[13px] text-gray-400 tracking-normal leading-none flex items-center gap-3" style="font-family: 'Jost', sans-serif;">
-                            <span>1 de abril de 2026</span>
+                            <span>April 1, 2026</span>
                             <a href="#" class="link-underline flex items-center gap-1 text-white font-medium transition-colors hover:text-gray-300">
                                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                                 Acuatica Samil
@@ -454,15 +454,15 @@
 
                 <!-- Texto Slide 5 (Billie Eilish) -->
                 <div class="hero-text absolute top-0 left-0 w-full px-2 md:px-4 transition-opacity duration-500 ease-in-out opacity-0 z-0 pointer-events-none flex flex-col items-start justify-start">
-                    <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">Espacio Devon</p>
+                    <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">Devon Space</p>
                     <h2 class="text-3xl md:text-5xl lg:text-[3.2rem] font-medium text-white leading-[1.15] mb-6 md:mb-8 max-w-5xl" style="font-family: 'Jost', sans-serif; letter-spacing: -0.02em;">
-                        Billie Eilish, la artista estadounidense hacen una aparición en los cines con su pelicula HIT ME HARD AND SOFT Movie 
+                        Billie Eilish, the American artist makes a theatrical appearance with her movie HIT ME HARD AND SOFT Movie 
                     </h2>
                     <div class="text-[10px] md:text-[11px] font-medium tracking-[0.15em] uppercase text-white leading-loose">
-                        <p class="text-gray-300">POR Billie Eilish, Paramount® & Devon®.</p>
-                        <p class="text-gray-300">Fotografia Por Paramount®</p>
+                        <p class="text-gray-300">BY Billie Eilish, Paramount® & Devon®.</p>
+                        <p class="text-gray-300">Photography By Paramount®</p>
                         <div class="normal-case mt-2 text-[11px] md:text-[13px] text-gray-400 tracking-normal leading-none flex items-center gap-3" style="font-family: 'Jost', sans-serif;">
-                            <span>20 de marzo de 2026</span>
+                            <span>March 20, 2026</span>
                         </div>
                     </div>
                 </div>
@@ -471,28 +471,28 @@
                 <div class="hero-text absolute top-0 left-0 w-full px-2 md:px-4 transition-opacity duration-500 ease-in-out opacity-0 z-0 pointer-events-none flex flex-col items-start justify-start">
                     <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">(Re) Devon</p>
                     <h2 class="text-3xl md:text-5xl lg:text-[3.2rem] font-medium text-white leading-[1.15] mb-6 md:mb-8 max-w-5xl" style="font-family: 'Jost', sans-serif; letter-spacing: -0.02em;">
-                        Salma, la mejor persona de la acuatica Samil podria volver gracias a un reporte hacia su sucesor
+                        Salma, the best person from Acuatica Samil could return thanks to a report regarding her successor
                     </h2>
                     <div class="text-[10px] md:text-[11px] font-medium tracking-[0.15em] uppercase text-white leading-loose">
-                        <p class="text-gray-300">Por Samil® & Devon®.</p>
-                        <p class="text-gray-300">Fotografia Por Samil®</p>
+                        <p class="text-gray-300">By Samil® & Devon®.</p>
+                        <p class="text-gray-300">Photography By Samil®</p>
                         <div class="normal-case mt-2 text-[11px] md:text-[13px] text-gray-400 tracking-normal leading-none flex items-center gap-3" style="font-family: 'Jost', sans-serif;">
-                            <span>4 de abril de 2026 (Actualizacion 6 abril de 2026)</span>
+                            <span>April 4, 2026 (Updated April 6, 2026)</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Texto Slide 7 (Backrooms) -->
                 <div class="hero-text absolute top-0 left-0 w-full px-2 md:px-4 transition-opacity duration-500 ease-in-out opacity-0 z-0 pointer-events-none flex flex-col items-start justify-start">
-                    <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">Espacio Devon</p>
+                    <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">Devon Space</p>
                     <h2 class="text-3xl md:text-5xl lg:text-[3.2rem] font-medium text-white leading-[1.15] mb-6 md:mb-8 max-w-5xl" style="font-family: 'Jost', sans-serif; letter-spacing: -0.02em;">
-                        The Backrooms Movie, la pelicula estadounidense mas esperada producida por A24 para estar en los cines con su pelicula su lanzamiento se espera para el dia 29 mayo de 2026.
+                        The Backrooms Movie, the most anticipated American movie produced by A24 to be in theaters, its release is expected for May 29, 2026.
                     </h2>
                     <div class="text-[10px] md:text-[11px] font-medium tracking-[0.15em] uppercase text-white leading-loose mb-6">
-                        <p class="text-gray-300">POR A24® & Devon®.</p>
-                        <p class="text-gray-300">Fotografia Por Devon®</p>
+                        <p class="text-gray-300">BY A24® & Devon®.</p>
+                        <p class="text-gray-300">Photography By Devon®</p>
                         <div class="normal-case mt-2 text-[11px] md:text-[13px] text-gray-400 tracking-normal leading-none flex items-center gap-3" style="font-family: 'Jost', sans-serif;">
-                            <span>8 abril de 2026</span>
+                            <span>April 8, 2026</span>
                         </div>
                     </div>
                     <a href="backrooms.html" class="link-underline text-xs md:text-sm font-bold tracking-widest uppercase text-white transition-colors pointer-events-auto relative z-30">
@@ -504,29 +504,29 @@
                 <div class="hero-text absolute top-0 left-0 w-full px-2 md:px-4 transition-opacity duration-500 ease-in-out opacity-0 z-0 pointer-events-none flex flex-col items-start justify-start">
                     <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">(Re) Devon</p>
                     <h2 class="text-3xl md:text-5xl lg:text-[3.2rem] font-medium text-white leading-[1.15] mb-6 md:mb-8 max-w-5xl" style="font-family: 'Jost', sans-serif; letter-spacing: -0.02em;">
-                        Alonso, posando para una fotografia para un espacio acerca de moda, belleza y mas en (Re) Devon
+                        Alonso, posing for a photograph for a space about fashion, beauty and more in (Re) Devon
                     </h2>
                     <div class="text-[10px] md:text-[11px] font-medium tracking-[0.15em] uppercase text-white leading-loose">
-                        <p class="text-gray-300">Por Samil® & Devon® ft Alonso</p>
-                        <p class="text-gray-300">Fotografia por Devon® & Alonso</p>
-                        <p class="text-gray-300">Editada por Devon® & Open AI®</p>
+                        <p class="text-gray-300">By Samil® & Devon® ft Alonso</p>
+                        <p class="text-gray-300">Photography by Devon® & Alonso</p>
+                        <p class="text-gray-300">Edited by Devon® & Open AI®</p>
                         <div class="normal-case mt-2 text-[11px] md:text-[13px] text-gray-400 tracking-normal leading-none flex items-center gap-3" style="font-family: 'Jost', sans-serif;">
-                            <span>8 abril de 2026</span>
+                            <span>April 8, 2026</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Texto Slide 9 (Euphoria Premiere) -->
                 <div class="hero-text absolute top-0 left-0 w-full px-2 md:px-4 transition-opacity duration-500 ease-in-out opacity-0 z-0 pointer-events-none flex flex-col items-start justify-start">
-                    <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">Espacio Devon</p>
+                    <p class="text-[11px] md:text-xs font-medium tracking-[0.2em] uppercase text-gray-300 mb-3 md:mb-4">Devon Space</p>
                     <h2 class="text-3xl md:text-5xl lg:text-[3.2rem] font-medium text-white leading-[1.15] mb-6 md:mb-8 max-w-5xl" style="font-family: 'Jost', sans-serif; letter-spacing: -0.02em;">
-                        Euphoria The Premiere, la premiere de la serie de Hbo su temporada 3 esta a un dia de salir a Hbo Max producida por A24 llegando a Coachella 2026 se espera para salir el día de mañana 12 de abril de 2026.
+                        Euphoria The Premiere, the premiere of the HBO series season 3 is one day away from coming to HBO Max produced by A24 arriving at Coachella 2026, expected to be released tomorrow April 12, 2026.
                     </h2>
                     <div class="text-[10px] md:text-[11px] font-medium tracking-[0.15em] uppercase text-white leading-loose mb-6">
-                        <p class="text-gray-300">POR A24® & Devon®.</p>
-                        <p class="text-gray-300">Fotografia Por Deadline®</p>
+                        <p class="text-gray-300">BY A24® & Devon®.</p>
+                        <p class="text-gray-300">Photography By Deadline®</p>
                         <div class="normal-case mt-2 text-[11px] md:text-[13px] text-gray-400 tracking-normal leading-none flex items-center gap-3" style="font-family: 'Jost', sans-serif;">
-                            <span>8 abril de 2026 (Actualizacion 11 abril de 2026)</span>
+                            <span>April 8, 2026 (Updated April 11, 2026)</span>
                         </div>
                     </div>
                     <!-- Logo Euphoria con fallback a texto si no carga la imagen -->
@@ -543,7 +543,7 @@
         <div class="w-full max-w-7xl mx-auto px-6 mt-16 md:mt-24 mb-6">
             <div class="border-t border-b border-gray-800 py-3 md:py-4">
                 <h2 class="text-lg md:text-xl font-medium tracking-widest text-white uppercase" style="font-family: 'Jost', sans-serif;">
-                    ÚLTIMAS TENDENCIAS
+                    LATEST TRENDS
                 </h2>
             </div>
         </div>
@@ -558,13 +558,13 @@
                         <img src="https://media.vogue.mx/photos/69e255387ff2fa59df72dca8/2:3/w_1920,c_limit/zapatos-de-toteme-primavra-verano-2026.jpg" alt="Zapatos planos" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
                         <div class="relative flex-1 flex flex-col items-center justify-end p-8 md:p-12 text-center z-10 mt-auto">
-                            <span class="text-[10px] md:text-xs font-medium tracking-widest text-white uppercase mb-3">MODA</span>
+                            <span class="text-[10px] md:text-xs font-medium tracking-widest text-white uppercase mb-3">FASHION</span>
                             <h3 class="text-2xl md:text-3xl lg:text-4xl font-medium text-white mb-6 leading-snug" style="font-family: 'Jost', sans-serif;">
-                                Los zapatos planos de buen gusto para llevar con jeans, faldas y vestidos en primavera 2026
+                                Tasteful flat shoes to wear with jeans, skirts and dresses in spring 2026
                             </h3>
                             <div class="flex flex-col items-center gap-1.5">
-                                <span class="text-[9px] md:text-[10px] font-medium tracking-widest text-gray-300 uppercase">POR RENATA JOFFRE</span>
-                                <span class="text-[10px] text-gray-400 font-sans">20 de abril de 2026</span>
+                                <span class="text-[9px] md:text-[10px] font-medium tracking-widest text-gray-300 uppercase">BY RENATA JOFFRE</span>
+                                <span class="text-[10px] text-gray-400 font-sans">April 20, 2026</span>
                             </div>
                         </div>
                     </a>
@@ -578,12 +578,12 @@
                         <div class="w-full aspect-[4/5] overflow-hidden mb-4 bg-gray-900">
                             <img src="https://media.vogue.mx/photos/69e642ac7f80d6c6100ae2c5/2:3/w_2240,c_limit/karol-g-coachella-2026-segundo-fin-de-semana.jpg" alt="Karol G" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         </div>
-                        <span class="text-[9px] md:text-[10px] font-medium tracking-widest text-gray-400 uppercase mb-2">MODA</span>
+                        <span class="text-[9px] md:text-[10px] font-medium tracking-widest text-gray-400 uppercase mb-2">FASHION</span>
                         <h3 class="text-sm md:text-base font-medium text-white leading-snug mb-3 group-hover:text-gray-300 transition-colors" style="font-family: 'Jost', sans-serif;">
-                            Karol G cierra Coachella 2026 con unas atractivas botas con inspiración en los 80
+                            Karol G closes Coachella 2026 with attractive 80s-inspired boots
                         </h3>
-                        <span class="text-[8px] md:text-[9px] font-medium tracking-widest text-gray-500 uppercase mb-1">POR FERNANDA PÉREZ SÁNCHEZ</span>
-                        <span class="text-[9px] text-gray-600 font-sans">20 de abril de 2026</span>
+                        <span class="text-[8px] md:text-[9px] font-medium tracking-widest text-gray-500 uppercase mb-1">BY FERNANDA PÉREZ SÁNCHEZ</span>
+                        <span class="text-[9px] text-gray-600 font-sans">April 20, 2026</span>
                     </a>
 
                     <!-- Item 2 (Arriba Derecha) -->
@@ -591,12 +591,12 @@
                         <div class="w-full aspect-[4/5] overflow-hidden mb-4 bg-gray-900">
                             <img src="https://media.vogue.mx/photos/69e263aace3b9418ee74547d/2:3/w_960,c_limit/sandalias-thong-de-los-90.jpg" alt="Sandalias Thong" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         </div>
-                        <span class="text-[9px] md:text-[10px] font-medium tracking-widest text-gray-400 uppercase mb-2">MODA</span>
+                        <span class="text-[9px] md:text-[10px] font-medium tracking-widest text-gray-400 uppercase mb-2">FASHION</span>
                         <h3 class="text-sm md:text-base font-medium text-white leading-snug mb-3 group-hover:text-gray-300 transition-colors" style="font-family: 'Jost', sans-serif;">
-                            Cómo llevar las sandalias thong de los 90 con faldas, vestidos y pantalones para lucir elegante en abril 2026
+                            How to wear 90s thong sandals with skirts, dresses, and pants to look elegant in April 2026
                         </h3>
-                        <span class="text-[8px] md:text-[9px] font-medium tracking-widest text-gray-500 uppercase mb-1">POR MARÍA FERNANDA MARÍN</span>
-                        <span class="text-[9px] text-gray-600 font-sans">20 de abril de 2026</span>
+                        <span class="text-[8px] md:text-[9px] font-medium tracking-widest text-gray-500 uppercase mb-1">BY MARÍA FERNANDA MARÍN</span>
+                        <span class="text-[9px] text-gray-600 font-sans">April 20, 2026</span>
                     </a>
 
                     <!-- Item 3 (Abajo Izquierda - Van Cleef) -->
@@ -604,12 +604,12 @@
                         <div class="w-full aspect-[4/5] overflow-hidden mb-4 bg-gray-900">
                             <img src="https://images.unsplash.com/photo-1611085583191-a3b181a88401?q=80&w=2000&auto=format&fit=crop" alt="Van Cleef & Arpels" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         </div>
-                        <span class="text-[9px] md:text-[10px] font-medium tracking-widest text-gray-400 uppercase mb-2">JOYERÍA</span>
+                        <span class="text-[9px] md:text-[10px] font-medium tracking-widest text-gray-400 uppercase mb-2">JEWELRY</span>
                         <h3 class="text-sm md:text-base font-medium text-white leading-snug mb-3 group-hover:text-gray-300 transition-colors" style="font-family: 'Jost', sans-serif;">
-                            Van Cleef & Arpels: Haute Joaillerie, place Vendôme desde 1906
+                            Van Cleef & Arpels: Haute Joaillerie, place Vendôme since 1906
                         </h3>
-                        <span class="text-[8px] md:text-[9px] font-medium tracking-widest text-gray-500 uppercase mb-1">POR DEVON EDITORS</span>
-                        <span class="text-[9px] text-gray-600 font-sans">20 de abril de 2026</span>
+                        <span class="text-[8px] md:text-[9px] font-medium tracking-widest text-gray-500 uppercase mb-1">BY DEVON EDITORS</span>
+                        <span class="text-[9px] text-gray-600 font-sans">April 20, 2026</span>
                     </a>
                 </div>
             </div>
@@ -617,16 +617,16 @@
 
         <!-- BANNER COACHELLA -->
         <div class="w-full max-w-7xl mx-auto px-6 mb-16">
-            <a href="coachella.html" class="w-full flex flex-col items-center justify-center py-10 md:py-16 border-t border-b border-gray-800 group hover:border-gray-500 active:border-gray-600 transition-colors cursor-pointer relative overflow-hidden">
+            <a href="coachella.html" class="w-full flex flex-col items-center justify-center py-12 md:py-20 border-t border-b border-gray-800 group hover:border-gray-500 active:border-gray-600 transition-colors cursor-pointer relative overflow-hidden">
                 <!-- Fondo sutil al hacer hover o clic -->
                 <div class="absolute inset-0 bg-gradient-to-r from-transparent via-gray-900/20 to-transparent opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-opacity duration-700"></div>
                 
                 <!-- Logo de Coachella más grande -->
-                <img src="https://logos-world.net/wp-content/uploads/2024/02/Coachella-Emblem.png" alt="Coachella" class="h-24 md:h-32 lg:h-48 object-contain transition-transform duration-700 group-hover:scale-110 group-active:scale-105 relative z-10 drop-shadow-lg">
+                <img src="https://logos-world.net/wp-content/uploads/2024/02/Coachella-Emblem.png" alt="Coachella" class="h-32 md:h-48 lg:h-64 object-contain transition-transform duration-700 group-hover:scale-110 group-active:scale-105 relative z-10 drop-shadow-lg">
                 
                 <!-- Texto con animación de línea inferior al pasar el mouse o hacer clic -->
-                <span class="mt-4 md:mt-6 text-[9px] md:text-[10px] font-bold tracking-[0.3em] text-gray-600 uppercase group-hover:text-white group-active:text-white transition-colors relative z-10 pb-1 after:content-[''] after:absolute after:w-0 after:h-[1.5px] after:bottom-0 after:left-0 after:bg-white after:transition-all after:duration-300 group-hover:after:w-full group-active:after:w-full">
-                    DESCUBRE LA COBERTURA
+                <span class="mt-4 md:mt-6 text-[10px] md:text-[11px] font-bold tracking-[0.3em] text-gray-600 uppercase group-hover:text-white group-active:text-white transition-colors relative z-10 pb-1 after:content-[''] after:absolute after:w-0 after:h-[1.5px] after:bottom-0 after:left-0 after:bg-white after:transition-all after:duration-300 group-hover:after:w-full group-active:after:w-full">
+                    DISCOVER THE COVERAGE
                 </span>
             </a>
         </div>
@@ -666,24 +666,24 @@
 
             <!-- Columna Central: MÁS EN DEVON -->
             <div class="md:col-span-4 md:pl-8">
-                <h4 class="text-[10px] font-bold tracking-[0.2em] uppercase mb-8 text-gray-500 font-sans">MÁS EN DEVON</h4>
+                <h4 class="text-[10px] font-bold tracking-[0.2em] uppercase mb-8 text-gray-500 font-sans">MORE ON DEVON</h4>
                 <ul class="text-[10px] font-medium tracking-[0.15em] text-gray-300 space-y-5 uppercase font-sans">
-                    <li><a href="moda.html" class="hover:text-white transition-colors">Moda</a></li>
-                    <li><a href="belleza.html" class="hover:text-white transition-colors">Belleza</a></li>
-                    <li><a href="estilodevida.html" class="hover:text-white transition-colors">Estilo de Vida</a></li>
-                    <li><a href="compras.html" class="hover:text-white transition-colors">Compras</a></li>
+                    <li><a href="moda.html" class="hover:text-white transition-colors">Fashion</a></li>
+                    <li><a href="belleza.html" class="hover:text-white transition-colors">Beauty</a></li>
+                    <li><a href="estilodevida.html" class="hover:text-white transition-colors">Lifestyle</a></li>
+                    <li><a href="compras.html" class="hover:text-white transition-colors">Shopping</a></li>
                     <li><a href="redevon.html" class="hover:text-white transition-colors">(Re)Devon</a></li>
                     <li><a href="redcarpet.html" class="hover:text-white transition-colors">Red Carpet</a></li>
-                    <li><a href="pasarelas.html" class="hover:text-white transition-colors">Pasarelas</a></li>
+                    <li><a href="pasarelas.html" class="hover:text-white transition-colors">Runways</a></li>
                     <li><a href="videos.html" class="hover:text-white transition-colors">Videos</a></li>
-                    <li><a href="espaciodevon.html" class="hover:text-white transition-colors">Espacio Devon</a></li>
+                    <li><a href="espaciodevon.html" class="hover:text-white transition-colors">Devon Space</a></li>
                     <li><a href="photodevon.html" class="hover:text-white transition-colors">PhotoDevon</a></li>
                 </ul>
             </div>
 
             <!-- Columna Derecha: CONDÉ NAST MÉXICO -->
             <div class="md:col-span-4">
-                <h4 class="text-[10px] font-bold tracking-[0.2em] uppercase mb-8 text-gray-500 font-sans">CONDÉ NAST MÉXICO</h4>
+                <h4 class="text-[10px] font-bold tracking-[0.2em] uppercase mb-8 text-gray-500 font-sans">CONDÉ NAST MEXICO</h4>
                 <ul class="text-[10px] font-medium tracking-[0.15em] text-gray-300 space-y-5 uppercase font-sans">
                     <li><a href="ad.html" class="hover:text-white transition-colors">AD</a></li>
                     <li><a href="glamour.html" class="hover:text-white transition-colors">Glamour</a></li>
@@ -698,26 +698,37 @@
         <div class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-gray-900 flex flex-col md:flex-row items-center justify-between gap-8 font-sans">
             
             <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-4 gap-y-3 text-[9px] font-medium tracking-[0.15em] text-gray-500 uppercase">
-                <a href="convenio.html" class="hover:text-white transition-colors">Convenio del Usuario</a>
+                <a href="convenio.html" class="hover:text-white transition-colors">User Agreement</a>
                 <span class="text-gray-700">|</span>
-                <a href="privacidad.html" class="hover:text-white transition-colors">Aviso de Privacidad</a>
+                <a href="privacidad.html" class="hover:text-white transition-colors">Privacy Policy</a>
                 <span class="text-gray-700">|</span>
-                <a href="quienessomos.html" class="hover:text-white transition-colors">Quiénes Somos</a>
+                <a href="quienessomos.html" class="hover:text-white transition-colors">About Us</a>
                 <span class="text-gray-700">|</span>
                 <a href="mediakit.html" class="hover:text-white transition-colors">Media Kit</a>
                 <span class="text-gray-700">|</span>
                 <a href="newsletter.html" class="hover:text-white transition-colors">Newsletter</a>
                 <span class="text-gray-700">|</span>
-                <a href="suscripcion.html" class="hover:text-white transition-colors">Suscripción</a>
+                <a href="suscripcion.html" class="hover:text-white transition-colors">Subscribe</a>
                 <span class="text-gray-700">|</span>
                 <a href="sitemap.html" class="hover:text-white transition-colors">Site Map</a>
             </div>
 
-            <!-- Botón México -->
-            <button class="flex items-center gap-2 border border-gray-800 px-4 py-2 text-xs font-normal hover:border-gray-500 transition-colors text-white tracking-wide shrink-0">
-                México
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-            </button>
+            <!-- Botón Selector de País -->
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-gray-800 px-4 py-2 text-xs font-normal hover:border-gray-500 transition-colors text-white tracking-wide shrink-0">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <!-- Dropdown Menu de País -->
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-[#0a0a0a] border border-gray-800 shadow-2xl hidden flex-col transition-all duration-200 opacity-0 transform translate-y-2 z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-4 text-[11px] font-bold tracking-widest text-gray-400 hover:text-white hover:bg-gray-900 border-b border-gray-800 transition-colors uppercase">
+                        Mexico
+                    </a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-4 text-[11px] font-bold tracking-widest text-gray-400 hover:text-white hover:bg-gray-900 transition-colors uppercase">
+                        USA
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
 
@@ -795,7 +806,7 @@
                         islandContent.className = 'w-full flex items-center justify-between transition-all duration-300';
                         islandContent.innerHTML = `
                             <span class="flex items-center gap-1.5 text-gray-300 font-normal text-xs md:text-sm whitespace-nowrap">
-                                Visto por <span id="views-counter" class="text-white font-bold tracking-widest">${viewsCount.toLocaleString('en-US')}</span>
+                                Viewed by <span id="views-counter" class="text-white font-bold tracking-widest">${viewsCount.toLocaleString('en-US')}</span>
                             </span>
                             <button id="close-island-btn" class="text-gray-400 hover:text-white ml-2 transition-colors shrink-0">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
@@ -809,7 +820,7 @@
                     else if (mode === 'unavailable') {
                         dynamicIsland.classList.add('views-mode'); 
                         islandContent.className = 'w-full flex items-center justify-center transition-all duration-300';
-                        islandContent.innerHTML = `<span class="text-white text-xs md:text-sm font-bold tracking-widest uppercase">No Disponible</span>`;
+                        islandContent.innerHTML = `<span class="text-white text-xs md:text-sm font-bold tracking-widest uppercase">Unavailable</span>`;
                         
                         setTimeout(() => {
                             dynamicIsland.classList.add('island-shake'); 
@@ -1119,6 +1130,40 @@
             closeMenu();
         }
         function closeAll() { hideOverlay(); }
+
+        // --- 7. Selector de País (Footer) ---
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                
+                if (countryDropdown.classList.contains('hidden')) {
+                    // Abrir
+                    countryDropdown.classList.remove('hidden');
+                    setTimeout(() => {
+                        countryDropdown.classList.remove('opacity-0', 'translate-y-2');
+                    }, 10);
+                } else {
+                    // Cerrar
+                    countryDropdown.classList.add('opacity-0', 'translate-y-2');
+                    setTimeout(() => {
+                        countryDropdown.classList.add('hidden');
+                    }, 200);
+                }
+            });
+
+            // Cerrar menú si se hace clic fuera
+            document.addEventListener('click', (e) => {
+                if (!countryBtn.contains(e.target) && !countryDropdown.contains(e.target) && !countryDropdown.classList.contains('hidden')) {
+                    countryDropdown.classList.add('opacity-0', 'translate-y-2');
+                    setTimeout(() => {
+                        countryDropdown.classList.add('hidden');
+                    }, 200);
+                }
+            });
+        }
 
     </script>
 </body>
